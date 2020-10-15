@@ -1,13 +1,18 @@
 ## Prerequisites
 
-Python must be installed
-[https://www.r-project.org/](https://www.r-project.org/) as well as
-the Python packages 
+[Python](https://www.python.org/) must be installed as well as the
+ Python packages [pandas](https://pandas.pydata.org/),
+ [numpy](https://numpy.org/),
+ [pystan](https://pystan.readthedocs.io/en/latest/),
+ [matplotlib](https://matplotlib.org/),
+ [arviz](https://arviz-devs.github.io/arviz/),
+ [sklearn](https://scikit-learn.org/stable/index.html), and
+ [scipy](https://www.scipy.org/)
 
 ## Running the code
 
-You should be able to run the `.R` files interactively or in BATCH
-mode.
+You should be able to run the `*.py` files interactively or by
+submitting to the file to the Python interpreter.
 
 ## List of files and descriptions
 
