@@ -8,6 +8,9 @@
  [arviz](https://arviz-devs.github.io/arviz/),
  [sklearn](https://scikit-learn.org/stable/index.html), and
  [scipy](https://www.scipy.org/)
+ 
+Tested under Python 3.8 and Linux.  For Mac, you may need to set the
+argument `n_jobs` to 1 in the function call `stan_model.sampling`.
 
 ## Running the code
 
