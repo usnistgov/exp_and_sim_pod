@@ -14,8 +14,12 @@ argument `n_jobs` to 1 in the function call `stan_model.sampling`.
 
 ## Running the code
 
-You should be able to run the `*.py` files interactively or by
-submitting to the file to the Python interpreter.
+You should be able to run the `*.py` files interactively or by submitting to the
+file to the Python interpreter.
+
+**Warning**: `run_model_no_sim_neg_binom_quad.py` and
+`run_model_with_sim_neg_binom_quad.py` may take a long time to run, hours, not
+minutes.
 
 ## List of files and descriptions
 
