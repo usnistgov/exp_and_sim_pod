@@ -9,8 +9,8 @@
  [sklearn](https://scikit-learn.org/stable/index.html), and
  [scipy](https://www.scipy.org/)
  
-Tested under Python 3.8 and Linux.  For Mac, you may need to set the
-argument `n_jobs` to 1 in the function call `stan_model.sampling`.
+Tested under Python 3.8 and Linux. For Mac, you may need to set the argument
+`n_jobs` to 1 in the function call `stan_model.sampling`.
 
 ## Running the code
 
@@ -20,6 +20,16 @@ file to the Python interpreter.
 **Warning**: `run_model_no_sim_neg_binom_quad.py` and
 `run_model_with_sim_neg_binom_quad.py` may take a long time to run, hours, not
 minutes.
+
+**Troubleshooting**: If the call to `az.to_netcdf` causes an error, upgrade
+`pystan` to the latest PyPI version and upgrade `arviz` to the latest development
+version.
+
+```{shell}
+pip install --upgrade pystan
+pip uninstall arviz
+pip install git+git://github.com/arviz-devs/arviz.git
+```
 
 ## List of files and descriptions
 
